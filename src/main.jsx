@@ -10,9 +10,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
-      <Route path='./' element={<Index/>}></Route>
-      <Route path='./faq' element={<Faq/>}></Route>
-      <Route path='./store' element={<Store/>}></Route>
+      <Route path='/' element={<Index/>}></Route>
+      <Route path='/faq' element={<Faq/>}></Route>
+      <Route path='/store' element={<Store/>}></Route>
       </Routes>
     </HashRouter>
   </React.StrictMode>,

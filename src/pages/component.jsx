@@ -10,12 +10,12 @@ export function Nav() {
 
         <div className='nav'>
             <div className="container flex">
-                <Link to='./'><img src={logo} alt="logo" /></Link>
+                <Link to='/'><img src={logo} alt="logo" /></Link>
                 <ul>
                     <li> <a href="#">系列鏡框</a></li>
-                    <li>  <Link to='./store'>門市據點</Link></li>
+                    <li>  <Link to='/store'>門市據點</Link></li>
                     <li> <a href="#">部落格</a></li>
-                    <li> <Link to='./faq'>常見問題</Link></li>
+                    <li> <Link to='/faq'>常見問題</Link></li>
                 </ul>
             </div>
         </div>
